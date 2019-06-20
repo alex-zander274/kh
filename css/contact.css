@@ -1,0 +1,20 @@
+.contact-header{
+    background-color: blue;
+    height: 100px;
+    width: 200px;
+    color: red;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    margin: auto;
+    margin-top: 120px;
+}
+.container{
+    height: 550px;
+    width: 100%;
+    margin-top: 25px;
+}
+.contact-col{
+    float: left;
+    margin: auto;
+    margin-left: 4%;
+}
