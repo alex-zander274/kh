@@ -1,20 +1,50 @@
+.about-heading{
+    color: rgba(255, 0, 0, 0.925);
+    position: absolute;
+    left: 550px;
+    top: 87px;
+}
 .contact-header{
     background-color: blue;
-    height: 100px;
-    width: 200px;
+    /* height: 100px; */
+    width: inherit;
     color: red;
     text-align: center;
     font-family: 'Crimson Text', serif;
     margin: auto;
-    margin-top: 120px;
+    margin-top: 1px;
 }
 .container{
     height: 550px;
     width: 100%;
-    margin-top: 25px;
+    margin-top: 150px;
 }
 .contact-col{
     float: left;
     margin: auto;
     margin-left: 4%;
+    width: 40%;
+}
+.form{
+    margin-left: 10%;
+}
+
+.contact-form{
+    padding: 5%;
+    margin-left: 60px;
+    text-align: center;
+    
+}
+
+.contact-form input{
+    position: relative;
+    left: 50px;
+    display: block;
+    margin-left: 30px;
+}
+
+.contact-form textarea{
+    position: relative;
+    left: 50px;
+    display: block;
 }
